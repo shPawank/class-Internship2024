@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIET GROUP OF INSTITUTION</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KIET GROUP OF INSTITUTION</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">About Us</a> |
+        <a href="#">Academics</a> |
+        <a href="#">Admissions</a> |
+        <a href="#">Campus Life</a> |
+        <a href="#">Placements</a> |
+        <a href="#">News and Events</a> |
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <section>
+        <h2>Welcome to KIET Group of Institutions!</h2>
+        <p>
+            KIET Group of Institutions is a leading educational institution committed to providing quality education and fostering holistic development. With state-of-the-art infrastructure, experienced faculty, and a dynamic learning environment, we aim to empower students for success in the global arena.
+        </p>
+
+        <h3>Why Choose KIET?</h3>
+        <ul>
+            <li>Accredited Programs</li>
+            <li>Industry-Relevant Curriculum</li>
+            <li>Dedicated Faculty</li>
+            <li>Modern Infrastructure</li>
+            <li>Placements and Career Guidance</li>
+        </ul>
+    </section>
+
+    <footer>
+        &copy; 2024 KIET Group of Institutions. All rights reserved.
+    </footer>
+</body>
+</html>

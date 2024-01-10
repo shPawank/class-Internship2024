@@ -1,0 +1,37 @@
+\<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+</head>
+<body>
+    <table border="1">
+        <caption>Student Information</caption>
+        <tr>
+            <th>Student ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>John Doe</td>
+            <td>17</td>
+            <td>Grade 10</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Jane Smith</td>
+            <td>16</td>
+            <td>Grade 11</td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>Bob Johnson</td>
+            <td>15</td>
+            <td>Grade 9</td>
+        </tr>
+    </table>
+</body>
+</html>
