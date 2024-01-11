@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form Example</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+       .container{
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(22, 9, 34);
+       }
+
+       form{
+            width: 200px;
+            height: 100px;
+            padding: 25px;
+            background-color: aqua;
+            border-radius: 10px;
+       }
+       button{
+        height: 20px;
+        width: 200px;
+        background-color: aquamarine;
+       }
+
+    </style>
+</head>
+<body>
+
+    <h2 style="color: red; background-color: rgb(28, 30, 31); padding: 0%;">Exam  Form</h2>
+
+    <div class="container">
+    <form   onsubmit="return validateForm()">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+    <script>
+        function validateForm() {
+            var email = document.getElementById('email').value;
+
+            if (email === "") {
+                alert("Please enter your email.");
+                return false;
+            }
+            if(password==""){
+                alert("please enter the password");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+
+</body>
+</html>
